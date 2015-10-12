@@ -30,13 +30,13 @@
 
 #head_word h1{
 	color: white;
-	/*float: right;*/
 	padding-left: 8%;
 	font-size: 30px;
 	display: inline;
 	position: relative;
 	top: 20px;
 	left: 500px;
+	font-family: Comic Sans MS;
 }
 
 #head_word h1 a{
