@@ -7,6 +7,9 @@
 	z-index: 1;
 }
 
+#head{
+	position: relative;
+}
 
 
 .head{
@@ -18,7 +21,7 @@
 	z-index: 10;
 }
 
-#head_svg{
+#head_svg a{
 	height: 70px;
 	width: 70px;
 	fill: white;
@@ -34,9 +37,16 @@
 	font-size: 30px;
 }
 
+#head_word h1 a{
+	color: white;
+	text-decoration: none;
+}
+
 #head_word{
 	margin-right: 5%;
 }
+
+
 
 
 body{
@@ -63,6 +73,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0f0e', end
 
 }
 
+#about{
+	position: relative;
+	bottom: 550px;
+}
+
 #about_me{
 	border-radius: 1000px;`
 	height: 350px;
@@ -71,7 +86,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0f0e', end
 	margin-top: 30px;
 }
 
-.about{
+.about_p{
 	color: white;
 	width: 600px;
 	
@@ -81,10 +96,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0f0e', end
 	font-size: 50px;
 	text-decoration: underline;
 
-}
-
-.about p{
-	font-size: 30px;
 }
 
 .about_word {
@@ -114,6 +125,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0f0e', end
 
 .center_svg:last-child{
 	fill:black;
+}
+
+#skill{
+	position: relative;
+	bottom: 300px;
 }
 
 .skill svg{
@@ -153,11 +169,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0f0e', end
 
 }
 
+#experience{
+	float: left;
+	position: relative;
+	bottom: 350px;
+}
 
 .experience svg{
 	height: 200px;
 	width: 200px;
-border: 8px solid black;
+	border: 8px solid black;
 	border-radius: 50px;
 	position: relative;
 	left: 240px;
