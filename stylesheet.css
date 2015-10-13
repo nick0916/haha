@@ -211,7 +211,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0f0e', end
 
 }
 
-
+#test{
+	z-index: 8;
+	float: none;
+}
 
 
 
